@@ -1,0 +1,29 @@
+{
+  "parent": "britishconnah:example/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:book",
+      "count": 1,
+      "components": {}
+    },
+    "title": [
+      {
+        "text": "Example Advancement"
+      }
+    ],
+    "description": [
+      {
+        "text": "This is an example advancement."
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "command": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
